@@ -1,0 +1,17 @@
+/*
+See LICENSE folder for this template’s licensing information.
+
+Abstract:
+Contains English localizations of values in Manifest.plist files in the playground book.
+*/
+
+/* The localized name of the playground book. */
+"CHM114" = "Chemistry 114";
+
+/* The localized name of the first chapter in the playground book. */
+"MadeOfGlass" = "Chapter One: Made of Glass";
+
+/* The localized name of the first page in the first chapter in the playground book. */
+"SectionOne" = "Section One";
+"SectionTwo" = "Section Two";
+"SectionThree" = "Section Three";
