@@ -87,7 +87,65 @@ var bondOrder = {(eBonding: Double, eAntibonding: Double) in
  - px and py atomic orbitals overlap sideways and generate pi-bonding and pi-star-antibonding orbitals
  - sideways overlap of px and py orbitals forms a pair of bonding, ie two different orbitals and pair of antibonding orbitals - they are degenerate
  
+ *Molecular orbitals can also be used to describe bonds between atoms of different electronegativity.*
+ *Molecular orbitals can also form from atomic orbitals of different principal atomic number*
+ 
+ - The bond between H and Cl is polar
+ - Compared to hydrogen, electronegativity lowers the energies of the electrons on chlorine.
+ - Atomic orbitals will combine to form molecular orbitals only when they have similar energies e.g the 1s atomic orbital on hydrogen does not combine with the 3s orbital of chlorine because their energy difference is too large(lower electronegativety on chlorine)
+ ![bondingHCl](bondingHCl.png "bonding HCl")
+ 
 
+ ### Bonding in Molecules with Many Atoms: The Lewis Structure Model
+ - Flourine structure is 1s(2)2s(2)2p(5)
+ - Fourine is in group 7A, meaning it has 7 valence electrons
+ - Bonding dance two Flourines:
+   - 2 bonding, 2 anti bonding - 2s 2s
+   - 6 bonding, 4 left anti bonding - 2p 2p
+ */
+
+bondOrder(8,6)
+/*:
+ - So, according to MO model, net interaction between the flourine atoms of *one bond* (shared electron pari)
+ - Although the diagram/ math works out to six pairs, their bonding and antibonding effects balance out such that there is 1 bond overall
+ - molecular orbitals for large complex molecule is only possible by computer calculation, lewis structures are a graphic representation of connectivity and bonding with less information for ease
+ - primary guideline for understanding, filled valence shell *octet rule*
+ 
+ ## Octet rule
+ - atoms lose or gain shared electrons to achieve a noble gas configuration
+ - octet rule is useful for predicting formulas of many compounds and can serve ass a guide for drawing
+ - 7 to full 8, 7 flourine - 8, filled, 6 left over in each flourine
+ 
+ ### Normal Valences
+ - Normal valence of an element is the number of single bonds it can typically form
+ 
+ H20 - 8 electrons to fill valence shell of O, 2 bonds normal valence(8-6), 2 nonbinding pairs
+ NH3 - 8 electrons to fill valence shell of N, 3 bonds normal valence(8-5), 1 nonbinding pairs
+ CH3 - 8 electrons to fill valence shell of C, 4 bonds normal valence(8-4), 0 nonbinding pairs
+ H - 2 electrons to fill valence shell of H, 1 bonds normal valence(2-1), 0 nonbinding pairs
+ 
+ Nitrogen, visualzise math
+ ![NH3](NH3.png "NH3 Lewis")
+ 
+ ### VSEPR
+ 
+ - Pairs of electrons, whether bonding or nonbonding, arrange themselves so that they are as far apart from each other as possible. This phenomenon is called:
+ *Valence Shell Electron Pair Repulsion – VSEPR*
+ - Negatively charged electrons are more stabilized (their energies are lowered) the closer they are to the positively charged protons in the nucleus of an atom.
+ - Electron pairs repel each other, and lower their energy by minimizing this repulsion.
+  - eg 4 domains of electrons avoid each other as much as possible due to electron repulsion.
+ - The number of electron domains around an atom is used to define an electron domain geometry. For four electrons domains, like methane, the electron domain geometry is tetrahedral (the electron domains fit inside a tetrahedron). This is always true for four electron domains.
+ - Each electron domain of methane is also associated with a bond to another atom in the molecule.
+ - The positions of the atoms in a molecule determine the molecular geometry. The molecular geometry at the central carbon atom of methane is also tetrahedral. The four hydrogen atoms fit within a tetrahedron with the carbon atom in the center.
+ - The electron domain geometry for ammonia is tetrahedral since the nitrogen is surrounded by four electron domains (nonbinding domains)
+ 
+ Molecule Type Electron Domain Geometry Molecular Geometry XAX Angle
+ AX2                 Linear             Linear               180
+ AX3              Trigonal Planar       Trigonal Planar      120
+ AX2E             Trigonal Planar       Bent                 120
+ AX4              Tetrahedral           Tetrahedral          109
+ AX3E             Tetrahedral           Trigonal Pyramidal   109
+ AX2E2            Tetrahedral           Bent                 109
  */
 
 /*:
